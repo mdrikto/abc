@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    
+}
+.taps
+{
+    width: 100%;
+    display: flex;
+
+}
+.taps > div
+{
+    width: 100px;
+    height: 100px;
+    flex: 1;
+    border-radius: 25%;
+    margin: 0px 0px 20px 0px;
+}
+.tap1
+{
+    background-color: #3ccfff;
+}
+.tap2
+{
+    background-color: #832cb8;
+}
+.tap3
+{
+    background-color: #38eb34;
+}
+.tap4
+{
+    background-color: #ff30d1;
+}
+h1
+{
+    text-align: center;
+    font-size: 100px;
+}
