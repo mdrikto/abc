@@ -15,7 +15,7 @@ body
 }
 .bodi
 {
-    width: 220px;
+    width: 250px;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 25px;
@@ -29,8 +29,8 @@ body
 }
 .taps > div
 {
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     flex: 1;
     border-radius: 25%;
     margin: 10px 5px 10px 5px;
@@ -57,4 +57,25 @@ h1
     font-size: 45px;
     color: #5a84a2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pic
+{
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    margin-top: 25px;
+    background: #f0f0f0;
+    border-radius: 10%;
+    border: none;
+    box-shadow:  10px 10px 17px #d9dad4,
+               -10px -10px 17px #ffffff;
+
+}
+.tap1:hover
+{
+    background-color: #000000;
+}
+h1:hover
+{
+    color: #fff;
 }
